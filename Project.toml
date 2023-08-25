@@ -1,0 +1,18 @@
+name = "BoxCoxTransformationsMakie"
+uuid = "de06a102-3021-4b96-8a70-23d6a78fa7fa"
+authors = ["Oliver Lindemann"]
+version = "1.0.0-DEV"
+
+[deps]
+BoxCoxTransformations = "ac1db599-f54a-410d-bd66-c7f9ff67ee30"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+StatsAPI = "82ae8749-77ed-4fe6-ae5f-f523153014b0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
