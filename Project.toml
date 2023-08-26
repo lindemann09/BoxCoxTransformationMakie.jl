@@ -1,7 +1,7 @@
 name = "BoxCoxTransformationsMakie"
 uuid = "de06a102-3021-4b96-8a70-23d6a78fa7fa"
 authors = ["Oliver Lindemann"]
-version = "1.0.0-DEV"
+version = "0.1.0-DEV"
 
 [deps]
 BoxCoxTransformations = "ac1db599-f54a-410d-bd66-c7f9ff67ee30"

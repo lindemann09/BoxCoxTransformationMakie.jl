@@ -11,9 +11,9 @@ using Distributions
 using CairoMakie
 
 x = rand(Gamma(2,2), 10000) .+ 1;
-bc = BoxCoxTransformation(x)
+bc = fit(BoxCoxTransformation, x)
 
 fig = Figure()
 boxcox_plot!(fig, bc)
-display(fig)
+fig
 ```
